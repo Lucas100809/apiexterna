@@ -2,40 +2,50 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🐕 Dog Explorer</title>
-    <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>⚽ Times de Futebol</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <div class="container">
+<div class="overlay">
 
-        <h1>🐕 Explorador de Cachorros</h1>
-        <p class="subtitle">Consumindo nossa própria API em Node.js</p>
+<div class="container">
 
-        <div class="dog-area">
-            <img src="" alt="Cachorro" id="dogImage">
-            <div id="breedName"></div>
-        </div>
+<h1>⚽ Times de Futebol</h1>
 
-        <div class="controls">
-            <button id="randomBtn">🎲 Cachorro Aleatório</button>
-        </div>
+<div class="card">
 
-        <div class="search">
-            <input
-                type="text"
-                id="breedInput"
-                placeholder="Digite uma raça (ex: husky, pug)"
-            >
-            <button id="searchBtn">🔍 Buscar</button>
-        </div>
+<img id="dogImage" src="" alt="Time">
 
-    </div>
+<h2 id="breedName">Carregando...</h2>
 
-    <script src="script.js"></script>
+</div>
+
+<div class="controls">
+
+<input 
+type="text"
+id="breedInput"
+placeholder="Digite o nome do time">
+
+<button id="searchBtn">🔎 Buscar</button>
+
+<button id="randomBtn">🎲 Aleatório</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
